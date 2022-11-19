@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT SUBSTRING(c23, 1, 4) AS YEAR, AVG(c21) FROM tbl2 GROUP BY YEAR;
+SELECT SUBSTR(c23, 1, 4) AS YEAR, AVG(c21) FROM tbl2 GROUP BY YEAR;
